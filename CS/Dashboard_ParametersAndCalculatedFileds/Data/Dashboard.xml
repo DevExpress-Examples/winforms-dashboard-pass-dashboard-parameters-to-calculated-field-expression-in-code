@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Dashboard CurrencyCulture="en-US">
+  <Title Text="Dashboard" />
+  <DataSources>
+    <SqlDataSource ComponentName="dashboardSqlDataSource1" DataProcessingMode="Client">
+      <Name>SQL Data Source 1</Name>
+      <Connection Name="nwindConnection" ProviderKey="Access97">
+        <Parameters>
+          <Parameter Name="database" Value="..\..\Data\nwind.mdb" />
+          <Parameter Name="read only" Value="1" />
+          <Parameter Name="generateConnectionHelper" Value="false" />
+        </Parameters>
+      </Connection>
+      <Query Type="TableQuery" Name="SalesPerson">
+        <Table Name="SalesPerson">
+          <Column Name="OrderID" />
+          <Column Name="Country" />
+          <Column Name="FirstName" />
+          <Column Name="LastName" />
+          <Column Name="ProductName" />
+          <Column Name="CategoryName" />
+          <Column Name="OrderDate" />
+          <Column Name="UnitPrice" />
+          <Column Name="Quantity" />
+          <Column Name="Discount" />
+          <Column Name="Extended Price" />
+          <Column Name="Sales Person" />
+        </Table>
+      </Query>
+      <ResultSchema>
+        <DataSet Name="SQL Data Source 1">
+          <View Name="SalesPerson">
+            <Field Name="OrderID" Type="Int32" />
+            <Field Name="Country" Type="String" />
+            <Field Name="FirstName" Type="String" />
+            <Field Name="LastName" Type="String" />
+            <Field Name="ProductName" Type="String" />
+            <Field Name="CategoryName" Type="String" />
+            <Field Name="OrderDate" Type="DateTime" />
+            <Field Name="UnitPrice" Type="Decimal" />
+            <Field Name="Quantity" Type="Int16" />
+            <Field Name="Discount" Type="Single" />
+            <Field Name="Extended Price" Type="Decimal" />
+            <Field Name="Sales Person" Type="String" />
+          </View>
+        </DataSet>
+      </ResultSchema>
+    </SqlDataSource>
+  </DataSources>
+  <Items>
+    <Grid ComponentName="gridDashboardItem1" Name="Grid 1" ShowCaption="false" DataSource="dashboardSqlDataSource1" DataMember="SalesPerson">
+      <DataItems>
+        <Dimension DataMember="ProductName" Name="Product" UniqueName="DataItem0" />
+        <Measure DataMember="Discount" Name="Discount (Average)" SummaryType="Average" UniqueName="DataItem1">
+          <NumericFormat FormatType="Percent" />
+        </Measure>
+        <Dimension DataMember="CategoryName" Name="Category" UniqueName="DataItem2" />
+      </DataItems>
+      <GridColumns>
+        <GridDimensionColumn>
+          <Dimension UniqueName="DataItem2" />
+        </GridDimensionColumn>
+        <GridDimensionColumn>
+          <Dimension UniqueName="DataItem0" />
+        </GridDimensionColumn>
+        <GridMeasureColumn>
+          <Measure UniqueName="DataItem1" />
+        </GridMeasureColumn>
+      </GridColumns>
+      <GridOptions AllowGridCellMerge="true" />
+    </Grid>
+  </Items>
+  <LayoutTree>
+    <LayoutGroup>
+      <LayoutItem DashboardItem="gridDashboardItem1" Weight="26.427525622254759" />
+    </LayoutGroup>
+  </LayoutTree>
+</Dashboard>
