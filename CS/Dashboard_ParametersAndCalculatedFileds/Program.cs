@@ -2,7 +2,7 @@
 using System.Windows.Forms;
 using DevExpress.Skins;
 
-namespace Dashboard_ParametersAndCalculatedFileds {
+namespace Dashboard_ParametersAndCalculatedFields {
     static class Program {
         /// <summary>
         /// The main entry point for the application.

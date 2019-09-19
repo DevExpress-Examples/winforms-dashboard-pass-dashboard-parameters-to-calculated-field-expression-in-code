@@ -5,12 +5,12 @@ Imports System.Runtime.InteropServices
 ' General Information about an assembly is controlled through the following 
 ' set of attributes. Change these attribute values to modify the information
 ' associated with an assembly.
-<Assembly: AssemblyTitle("Dashboard_ParametersAndCalculatedFileds")>
+<Assembly: AssemblyTitle("Dashboard_ParametersAndCalculatedFields")>
 <Assembly: AssemblyDescription("")>
 <Assembly: AssemblyConfiguration("")>
 <Assembly: AssemblyCompany("")>
-<Assembly: AssemblyProduct("Dashboard_ParametersAndCalculatedFileds")>
-<Assembly: AssemblyCopyright("Copyright ©  2014")>
+<Assembly: AssemblyProduct("Dashboard_ParametersAndCalculatedFields")>
+<Assembly: AssemblyCopyright("Copyright ©  2019")>
 <Assembly: AssemblyTrademark("")>
 <Assembly: AssemblyCulture("")>
 
