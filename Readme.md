@@ -14,7 +14,8 @@ The dashboard connects to the Northwind database and selects data from the _Sale
 
 ## Documentation
 
-[Dashboard Parameters](https://docs.devexpress.com/Dashboard/116918)
+- [Dashboard Parameters](https://docs.devexpress.com/Dashboard/116918)
+- [WinForms Viewer - Manage Dashboard Parameters](https://docs.devexpress.com/Dashboard/17632/winforms-dashboard/winforms-viewer/manage-dashboard-parameters)
 
 ## More Examples
 
