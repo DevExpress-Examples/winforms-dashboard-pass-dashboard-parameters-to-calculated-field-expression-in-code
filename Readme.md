@@ -3,7 +3,7 @@
 
 * [Form1.cs](./CS/Dashboard_ParametersAndCalculatedFileds/Form1.cs) (VB: [Form1.vb](./VB/Dashboard_ParametersAndCalculatedFileds/Form1.vb))
 <!-- default file list end -->
-# How to Pass a Dashboard Parameter to a Calculated Field's Expression
+# Dashboard for WinForms - How to Pass a Dashboard Parameter to a Calculated Field's Expression
 
 
 This example demonstrates how to [create a new dashboard parameter](https://docs.devexpress.com/Dashboard/16169) and pass it to a calculated field's expression.
