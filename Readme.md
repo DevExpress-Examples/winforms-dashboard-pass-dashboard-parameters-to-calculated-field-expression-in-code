@@ -3,19 +3,20 @@
 [![](https://img.shields.io/badge/Open_in_DevExpress_Support_Center-FF7200?style=flat-square&logo=DevExpress&logoColor=white)](https://supportcenter.devexpress.com/ticket/details/E5135)
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
-<!-- default file list -->
-*Files to look at*:
 
-* [Form1.cs](./CS/Dashboard_ParametersAndCalculatedFileds/Form1.cs) (VB: [Form1.vb](./VB/Dashboard_ParametersAndCalculatedFileds/Form1.vb))
-<!-- default file list end -->
 # Dashboard for WinForms - How to Pass a Dashboard Parameter to a Calculated Field's Expression
-
 
 This example demonstrates how to [create a new dashboard parameter](https://docs.devexpress.com/Dashboard/16169) and pass it to a calculated field's expression.
 
 The dashboard connects to the Northwind database and selects data from the _SalesPerson_ table. A new calculated field evaluated at the [summary level](https://docs.devexpress.com/Dashboard/114034) returns **TRUE** or **FALSE** depending on whether or not the average discount exceeds the selected parameter value.</p>
 
 ![screenshot](/images/screenshot.png)
+
+<!-- default file list -->
+## Files to look at
+
+* [Form1.cs](./CS/Dashboard_ParametersAndCalculatedFileds/Form1.cs) (VB: [Form1.vb](./VB/Dashboard_ParametersAndCalculatedFileds/Form1.vb))
+<!-- default file list end -->
 
 ## Documentation
 
