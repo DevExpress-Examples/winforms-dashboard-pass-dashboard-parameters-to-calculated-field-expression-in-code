@@ -12,11 +12,9 @@ The dashboard connects to the Northwind database and selects data from the _Sale
 
 ![screenshot](/images/screenshot.png)
 
-<!-- default file list -->
-## Files to look at
+## Files to Review
 
 * [Form1.cs](./CS/Dashboard_ParametersAndCalculatedFileds/Form1.cs) (VB: [Form1.vb](./VB/Dashboard_ParametersAndCalculatedFileds/Form1.vb))
-<!-- default file list end -->
 
 ## Documentation
 
